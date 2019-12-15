@@ -1,4 +1,3 @@
-
 import tkinter as tk
 from tkinter import ttk
 
@@ -14,6 +13,13 @@ win_size_pos = '800x600'
 top_win.geometry(win_size_pos)
 
 #------------------------------
+# create a top menu
+top_menu = tk.Menu(top_win)
+top_menu.add_command(label="Hello", command=None)
+top_menu.add_command(label="Quit", command=top_win.quit)
+
+# show the menu
+top_win.config(menu=top_menu)
 
 #------------------------------
 
