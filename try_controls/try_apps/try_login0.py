@@ -30,7 +30,7 @@ lbl_info = tk.Label(
     text='Login form',
     anchor="w",
     justify="left",
-    bg='#ceceff',
+    bg='purple',
     fg='white',
     height=1
 )
